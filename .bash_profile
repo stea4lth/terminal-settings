@@ -32,10 +32,11 @@ export COLOR_LIGHT_GRAY='\e[0;37m'
 
 PS1="\[${COLOR_YELLOW}\] [\!] \[${COLOR_CYAN}\] \D{%F %T}\n \[${COLOR_BLUE}\]\u\[${COLOR_RED}\]@\[${COLOR_BLUE}\]\h 😎💰💵₿ \[${COLOR_CYAN}\]\w\[${COLOR_LIGHT_GREEN}\] 📡\033[0m "
 
+# Colors
 export CLICOLOR=1
+export GREP_OPTIONS='--color=auto'
 #export LSCOLORS=GxFxCxDxBxegedabagaced
 export PATH=~/.composer/vendor/bin:/usr/local/sbin:$PATH
-export GREP_OPTIONS='--color=auto'
 
 #echo 'Time to take over the world!'
 echo 'Welcome to the Matrix Neo!'
