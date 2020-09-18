@@ -11,7 +11,8 @@ alias l="ls -A"
 alias ll="ls -alh"
 alias art="php artisan"
 
-# GREP Colors
+# Colors
+export CLICOLOR=1
 export GREP_OPTIONS='--color=auto'
 
 # Welcome Message
